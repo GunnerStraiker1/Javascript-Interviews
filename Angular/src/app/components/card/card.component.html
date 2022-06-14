@@ -1,0 +1,31 @@
+<div class="card my-3">
+  <img
+    src="{{ beer.image_url }}"
+    class="card-img-top img-style"
+    alt="{{ beer.name }}"
+  />
+  <div class="card-body">
+    <span
+      class="btn btn-sm float-end"
+      [ngClass]="{
+        'btn-success': beer.abv < 7,
+        'btn-danger': beer.abv >= 7
+      }"
+    >
+      {{ beer.abv }}
+    </span>
+    <h5 class="card-title">{{ beer.name }}</h5>
+    <p class="card-text">{{ beer.tagline }}</p>
+
+    <div class="row text-left">
+        <hr style="width:100% ;"/>
+        <div style="width: 100%;">
+      <p class="text-muted" style="margin:0 ;">Food Pairing</p>
+    </div>
+      <hr />
+      <div *ngFor="let f of beer.food_pairing">
+        <strong>&bull;{{ f }}</strong>
+      </div>
+    </div>
+  </div>
+</div>
