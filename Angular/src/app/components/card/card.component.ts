@@ -8,7 +8,7 @@ import { Beer } from '../../interfaces/Beer';
 })
 export class CardComponent {
 
-  @Input() beer!: Beer;
+  @Input() beer: Beer | undefined;
 
   
   constructor() { }
