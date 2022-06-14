@@ -5,6 +5,10 @@ Endpoint: https://api.punkapi.com/v2/beers
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.1.
 
+## Goal
+![Screen Shot 2022-06-14 at 14 53 42](https://user-images.githubusercontent.com/17731032/173676809-dfdc81aa-fba1-4dd1-8a00-4569c4194366.png)
+
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
