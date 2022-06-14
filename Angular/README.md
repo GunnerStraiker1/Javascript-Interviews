@@ -1,4 +1,7 @@
-# InterviewAngular
+# Interview Angular
+
+API: https://api.punkapi.com/v2
+Endpoint: https://api.punkapi.com/v2/beers
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.1.
 

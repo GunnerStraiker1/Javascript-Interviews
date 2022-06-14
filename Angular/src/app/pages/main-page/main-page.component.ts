@@ -17,7 +17,8 @@ export class MainPageComponent {
   }
 
   async getData() {
-    //TODO retrieve Data
+    //TODO retrieve Data, data should be retrieved in ASC order by abv property
+    // https://api.punkapi.com/v2/beers
   }
 
   filter(e: any) {
