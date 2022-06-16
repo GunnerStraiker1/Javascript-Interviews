@@ -1,0 +1,14 @@
+.beerCard {
+    height: auto 
+}
+
+.beerCardImgContainer {
+    display: flex !important;
+    justify-content: center;
+}
+
+.beerCard > div>img {
+    object-fit: contain;
+    height: 20rem;
+    width: 25rem;
+}
